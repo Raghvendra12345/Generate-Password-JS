@@ -1,0 +1,61 @@
+body{
+    background-color: #002339;
+    color: #fff;
+}
+.container{
+    margin: 2%;
+    padding: 4%;
+    width: 90%;
+}
+.display{
+    width: 70%;
+    background-color: #fff;
+    padding: 26px 20px;
+    align-items: center;
+    display: flex;
+    border-radius: 7px;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.container h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+.container span{
+    color: olivedrab;
+    padding-bottom: 7px;    
+    /* //it is used for underline down one bro// */ 
+    border-bottom: 4px solid rosybrown;   
+}
+.display img{
+    cursor: pointer;
+    width: 50px;
+}
+.display input{
+
+    /* //password ek box mai tha usko khatam karne k liye */
+   border: 0;
+   outline: 0;
+   font-size: 28px;
+}
+.container button img{
+    
+    width: 28px;
+    margin-right: 10px;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    margin-left: 36px;
+    font-size: 20px;
+    background-color: yellow;
+    border-radius: 8px;
+    color: purple;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    cursor: pointer;
+    padding: 16px 26px;
+    display: flex;
+}
